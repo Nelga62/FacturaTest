@@ -9,6 +9,14 @@ public class Factura {
 		this.productos = new Vector<>();
 	}
 	
+	public Vector<Producto> getProductos() {
+		return productos;
+	}
+
+	public void setProductos(Vector<Producto> productos) {
+		this.productos = productos;
+	}
+
 	public void meterProducto(Producto p) {
 		productos.add(p);
 	}
